@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="pizza.js"></script>
+    <link rel="stylesheet" href="pizza.css">
+</head>
+<body>
+    <h1>
+        Pizza Di Mario
+    </h1>
+    <h2>
+        Kies pizza
+    </h2>
+    <ol>
+        <li id="small" onclick="pizzaselectsmall()">Small - 15cm - 4.55,-</li>
+        <li id="medium" onclick="pizzaselectmedium()">Medium - 25cm - 8.55,-</li>
+        <li id="large" onclick="pizzaselectlarge()">Large - 40cm - 12,55,-</li>
+    </ol>
+    <button onclick="totaalberekening()">Bestellen</button>
+    <h3>
+        totaal
+    </h3>
+    <ul>
+        <li id="smallaantal"></li>
+        <li id="mediumaantal"></li>
+        <li id="largeaantal"></li>
+    </ul>
+    <p id="totaalprijs"></p>
+</body>
+</html>
